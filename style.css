@@ -1,0 +1,70 @@
+body {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container {
+    width: 50%;
+    background-color: #a3cbfd52;
+    height: 80%;
+    border-radius: 5%;
+    color: white;
+}
+input[type=text],
+input[type=email],
+input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    transition: border-bottom 0.3s;
+    color: wheat;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus {
+    outline: none; 
+    border-bottom: 1px solid #ffffff; 
+}
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/* file upload button */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+button {
+    background-color: #3a7cc7;
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #093364;
+}
